@@ -19,3 +19,6 @@ var data = {
   tramites : tramites
 }
     eachUser.push(data);
+    
+ $('#myModal').modal(options)
+
