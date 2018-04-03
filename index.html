@@ -5,24 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ventanilla unica</title>
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Arsenal|Boogaloo" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled.min.css?ver=4.5.0" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/solicitudes.css">
 </head>
 <body>
-
   <header>
     <nav class="navbar navbar-light lighten-4" id="nav">
       <span class="navbar-brand"><img src="assets/img/logo-renca-blanco.png" id="rencaLogo" alt=""></span>
     </nav>
   </header>
   
-<main>
+<main id="main" class="view" style="background-image: url('http://cdn.plataformaurbana.cl/wp-content/uploads/2014/12/cerro-renca-1000x668.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+  <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
   <section id="firstSection">
     <div class="row" id="file1">
       <div class="col-6 col-xs-2 col-sm-2" id="buttonIcons">
@@ -31,7 +32,7 @@
       </div>
 
       <div class="col-6 col-xs-2 col-sm-2" id="buttonIcons">
-        <button type="button" class="btn btn-primary"><i class="fas fa-clipboard-list"></i></button>
+        <button type="button" class="btn btn-primary" id="solicitudesBtn"><i class="fas fa-clipboard-list"></i></button>
         <h4>Solicitudes</h4>
       </div>
     </div>
@@ -60,10 +61,12 @@
       </div>
     </div>
   </section>
+</div>
 </main>
+<div id="solicitudes"></div>
 
 <!--Footer-->
-<footer class="page-footer font-small mdb-color lighten-3 pt-4 mt-4">
+<footer class="page-footer font-small mdb-color lighten-3 pt-4 ">
 
     <!--Footer Links-->
     <div class="container text-center text-md-left">
@@ -112,6 +115,7 @@
             <!--/.Fourth column-->
 
         </div>
+
     </div>
     <!--/.Footer Links-->
 
@@ -144,5 +148,6 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   <script src="assets/js/documentos.json"></script>
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/solicitudes.js"></script>
 </body>
 </html>
