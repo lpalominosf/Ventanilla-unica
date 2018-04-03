@@ -2,9 +2,153 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ventanilla unica</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled.min.css?ver=4.5.0" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/solicitudes.css">
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-light lighten-4" id="nav">
+      <span class="navbar-brand"><img src="assets/img/logo-renca-blanco.png" id="rencaLogo" alt=""></span>
+    </nav>
+  </header>
   
+<main id="main" class="view" style="background-image: url('http://cdn.plataformaurbana.cl/wp-content/uploads/2014/12/cerro-renca-1000x668.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+  <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+  <section id="firstSection">
+    <div class="row" id="file1">
+      <div class="col-6 col-xs-2 col-sm-2" id="buttonIcons">
+        <button type="button" class="btn btn-primary" id="btnIcon"><i class="fas fa-file-alt"></i></button>
+        <h4>Documentos Requeridos</h4>
+      </div>
+
+      <div class="col-6 col-xs-2 col-sm-2" id="buttonIcons">
+        <button type="button" class="btn btn-primary" id="solicitudesBtn"><i class="fas fa-clipboard-list"></i></button>
+        <h4>Solicitudes</h4>
+      </div>
+    </div>
+
+    <div class="row" id="file2">
+      <div class="col-6 col-xs-2 col-sm-2" id="buttonIcons">
+        <button type="button" class="btn btn-primary"><i class="fas fa-heartbeat"></i></button>
+        <h4>Salud</h4>
+      </div>
+
+      <div class="col-6 col-xs-2 col-sm-2" id="buttonIcons">
+        <button type="button" class="btn btn-primary"><i class="far fa-handshake"></i></button>
+        <h4>Social</h4>
+      </div>
+    </div>
+
+    <div class="row" id="file3">
+      <div class="col-6 col-xs-2 col-sm-2" id="buttonIcons">
+        <button type="button" class="btn btn-primary"><i class="fas fa-paste"></i></button>
+        <h4>Consulta tu estado</h4>
+      </div>
+
+      <div class="col-6 col-xs-2 col-sm-2" id="buttonIcons">
+        <button type="button" class="btn btn-primary"><i class="fas fa-plus"></i></button>
+        <h4>más...</h4>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+<div id="solicitudes"></div>
+
+<footer>
+<!--Third column-->
+<!--Footer-->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4 ">
+
+    <!--Footer Links-->
+    <div class="container text-center text-md-left">
+        <div class="row my-4">
+          
+            <!--Third column-->
+            <div class="col-md-4 col-lg-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Address</h5>
+                <!--Info-->
+                <p>
+                    <i class="fa fa-home mr-3"></i> Blanco Encalada Nº 1335, Plaza de Renca, Renca.</p>
+                <p>
+                    <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                <p>
+                    <i class="fa fa-phone mr-3"></i> +56 2 2685 6600</p>
+            </div>
+            <!--/.Third column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Fourth column-->
+            <div class="col-md-2 col-lg-2 text-center">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+                <!--Social buttons-->
+                <div class="mt-2" id="redes">
+                    <!--Facebook-->
+                    <a type="button" class="btn-floating btn-small btn-fb" href="https://www.facebook.com/MuniRenca/" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <!--Twitter-->
+                    <a type="button" class="btn-floating btn-small btn-tw" href="https://twitter.com/Muni_Renca" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <!--Instagram-->
+                    <a type="button" class="btn-floating btn-small btn-gplus" href="https://www.instagram.com/muni_renca/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!--Flickr-->
+                    <a type="button" class="btn-floating btn-small btn-dribbble" href="https://www.flickr.com/photos/munirenca/41166886462/" target="_blank">
+                        <i class="fab fa-flickr"></i>
+                    </a>
+                    <a type="button" class="btn-floating btn-small btn-dribbble">
+                        <i class="fa fa-dribbble"></i>
+                    </a>
+                </div>
+            </div>
+            <!--/.Fourth column-->
+
+        </div>
+
+    </div>
+    <!--/.Footer Links-->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3 text-center">
+        © 2018 Copyright:
+        <a href="https://mdbootstrap.com/material-design-for-bootstrap/"> MDBootstrap.com </a>
+    </div>
+    <!--/.Copyright-->
+</footer>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+  <!--Font Awesome-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <script src="assets/js/documentos.json"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/solicitudes.js"></script>
 </body>
 </html>
