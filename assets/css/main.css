@@ -58,6 +58,13 @@ main {
   font-size: 20px;
   text-align: center;
   margin-left: -10%;
+  font-family: 'Arsenal', sans-serif;
+  color: #000;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: -2%;
 }
 
 
