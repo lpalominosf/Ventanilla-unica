@@ -1,0 +1,26 @@
+.fa-wheelchair,
+.fa-graduation-cap,
+.fa-home,
+.fa-users,
+.fa-hand-holding-heart,
+.fa-hands-helping {
+  font-size: 50px;
+}
+
+.navbar {
+  background-color:#66b02f;
+}
+
+body {
+  background-image: url(../img/Cerro-Renca.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+h1 {
+  margin: 15%;
+}
