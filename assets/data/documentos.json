@@ -1,0 +1,100 @@
+[
+  {
+    "Tramites": [
+      {
+        "nombre": "TAG",
+        "documentos": [
+          {
+            "vehiculo nuevo": [
+              "Padrón a nombre del titular.",
+              "Factura a nombre del titular, con timbre RNVM (Registro Nacional de Vehículos Motorizados).",
+              "Solicitud de primera inscripción a nombre del titular."
+            ],
+            "vehiculo usado": [
+              "Padrón a nombre del titular.",
+              "Solicitud de transferencia a nombre del titular",
+              "Contrato de compraventa a nombre del titular autorizado ante notario.",
+              "Factura de adquisición del vehículo en subasta pública, certificada ante notario."
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Permiso de circulación",
+        "documentos": [
+          {
+            "vehiculo nuevo": [
+              "Factura de compra (incluye la copia).",
+              "Inscripción en el Servicio de Registro Civil.",
+              "Certificado de homologación (si corresponde) y certificado de normas de homologación.",
+              "Póliza de seguro automotor obligatorio con vigencia hasta el 31 de marzo del año siguiente."
+            ],
+            "vehiculo usado": [
+              "Permiso de circulación anterior.",
+              "Certificado de homologación (si corresponde), o revisión técnica vigente.",
+              "Póliza del seguro automotor obligatorio, que debe cubrir el período de vigencia del permiso de circulación.",
+              "Tarjeta de dominio o padrón, según inscripción en el Servicio de Registro Civil."
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Patente",
+        "documentos": [
+          "Cédula de identidad vigente y en buen estado.",
+          "Certificado de inscripción del vehículo (padrón).",
+          "Permiso de circulación vigente."
+        ]
+      },
+      {
+        "nombre": "Solicitud de devolución de pagos",
+        "documentos": [
+          "Comprobantes originales de pago",
+          "Documentos que determinen el ingreso en exceso o indebido de impuestos, reajustes, intereses penales o sanciones."
+        ]
+      },
+      {
+        "nombre": "Solicitud de Plaza Mayor",
+        "documentos": [
+          "Certificado de vigencia de la organización que se obtiene en el Servicio de Registro Civil ubicado en Balmaceda N°4155, Renca."
+        ]
+      }
+    ],
+    "Subsidios": [
+      {
+        "nombre": "Subsidio de discapacidad",
+        "documentos": [
+          "Cédula de Identidad del postulante y de la madre, padre o tutor.",
+          "Certificado de nacimiento.",
+          "Certificado de residencia en la comuna.",
+          "Formulario del Decreto Ley Nº869 (emitido por el médico tratante).",
+          "Certificado médico emitido por médico especialista hospital público."
+        ]
+      },
+      {
+        "nombre": "Subsidio único familiar",
+        "documentos": [
+          "Cédula de Identidad del postulante y de la madre, padre o tutor.",
+          "Certificado de nacimiento.",
+          "Certificado de control sano al día (para menores de 5 años).",
+          "Certificado de alumno regular con máximo un mes de antigüedad (para niños de 5 a 17 años)."
+        ]
+      },
+      {
+        "nombre": "Subsidio maternal",
+        "documentos": [
+          "Cédula de Identidad.",
+          "Carné de control maternal al día.",
+          "Certificado médico de meses de embarazo"
+        ]
+      },
+      {
+        "nombre": "Subsidio de agua potable y alcantarillado",
+        "documentos": [
+          "Cédula de Identidad.",
+          "Comprobante de pago de la última cuenta."
+        ]
+      }
+    ]
+  }
+]
