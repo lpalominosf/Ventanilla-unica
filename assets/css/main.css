@@ -1,6 +1,12 @@
 /*NAV*/
 #nav {
-  background-color: #5fb9d3;
+  background: rgba(215,94,36,1);
+background: -moz-linear-gradient(-45deg, rgba(215,94,36,1) 0%, rgba(230,142,12,1) 19%, rgba(118,158,51,1) 36%, rgba(0,154,136,1) 58%, rgba(95,185,211,1) 77%, rgba(1,146,208,1) 91%, rgba(1,146,208,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(215,94,36,1)), color-stop(19%, rgba(230,142,12,1)), color-stop(36%, rgba(118,158,51,1)), color-stop(58%, rgba(0,154,136,1)), color-stop(77%, rgba(95,185,211,1)), color-stop(91%, rgba(1,146,208,1)), color-stop(100%, rgba(1,146,208,1)));
+background: -webkit-linear-gradient(-45deg, rgba(215,94,36,1) 0%, rgba(230,142,12,1) 19%, rgba(118,158,51,1) 36%, rgba(0,154,136,1) 58%, rgba(95,185,211,1) 77%, rgba(1,146,208,1) 91%, rgba(1,146,208,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(215,94,36,1) 0%, rgba(230,142,12,1) 19%, rgba(118,158,51,1) 36%, rgba(0,154,136,1) 58%, rgba(95,185,211,1) 77%, rgba(1,146,208,1) 91%, rgba(1,146,208,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(215,94,36,1) 0%, rgba(230,142,12,1) 19%, rgba(118,158,51,1) 36%, rgba(0,154,136,1) 58%, rgba(95,185,211,1) 77%, rgba(1,146,208,1) 91%, rgba(1,146,208,1) 100%);
+background: linear-gradient(135deg, rgba(215,94,36,1) 0%, rgba(230,142,12,1) 19%, rgba(118,158,51,1) 36%, rgba(0,154,136,1) 58%, rgba(95,185,211,1) 77%, rgba(1,146,208,1) 91%, rgba(1,146,208,1) 100%);
 }
 
 #rencaLogo {
@@ -35,8 +41,12 @@ main {
   height: 100vh;
 }
 
-#file1 {
+#file1, #file2, #file3 {
   margin-left: 5%;
+}
+
+#file3 {
+  margin-top: -5%;
 }
 
 .fa-file-alt, .fa-clipboard-list, .fa-heartbeat, .fa-handshake, .fa-paste, .fa-plus {
@@ -65,7 +75,11 @@ main {
 
 footer {
   margin-top: -2%;
+  background-color: rgb(95, 185, 211);
+}
 
+#redes a {
+  margin-left: -2%;
 }
 
 
