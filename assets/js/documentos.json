@@ -1,8 +1,10 @@
-[
+var data = 
+
   {
     "Tramites": [
       {
         "nombre": "TAG",
+        "id": "tag",
         "documentos": [
           {
             "vehiculo nuevo": [
@@ -21,6 +23,7 @@
       },
       {
         "nombre": "Permiso de circulación",
+        "id": "circulacion",
         "documentos": [
           {
             "vehiculo nuevo": [
@@ -40,6 +43,7 @@
       },
       {
         "nombre": "Patente",
+        "id": "patente",
         "documentos": [
           "Cédula de identidad vigente y en buen estado.",
           "Certificado de inscripción del vehículo (padrón).",
@@ -48,6 +52,7 @@
       },
       {
         "nombre": "Solicitud de devolución de pagos",
+        "id": "pagos",
         "documentos": [
           "Comprobantes originales de pago",
           "Documentos que determinen el ingreso en exceso o indebido de impuestos, reajustes, intereses penales o sanciones."
@@ -55,6 +60,7 @@
       },
       {
         "nombre": "Solicitud de Plaza Mayor",
+        "id": "plaza",
         "documentos": [
           "Certificado de vigencia de la organización que se obtiene en el Servicio de Registro Civil ubicado en Balmaceda N°4155, Renca."
         ]
@@ -63,6 +69,7 @@
     "Subsidios": [
       {
         "nombre": "Subsidio de discapacidad",
+        "id": "discapacidad",
         "documentos": [
           "Cédula de Identidad del postulante y de la madre, padre o tutor.",
           "Certificado de nacimiento.",
@@ -73,6 +80,7 @@
       },
       {
         "nombre": "Subsidio único familiar",
+        "id": "familiar",
         "documentos": [
           "Cédula de Identidad del postulante y de la madre, padre o tutor.",
           "Certificado de nacimiento.",
@@ -82,6 +90,7 @@
       },
       {
         "nombre": "Subsidio maternal",
+        "id": "maternal",
         "documentos": [
           "Cédula de Identidad.",
           "Carné de control maternal al día.",
@@ -90,6 +99,7 @@
       },
       {
         "nombre": "Subsidio de agua potable y alcantarillado",
+        "id": "agua",
         "documentos": [
           "Cédula de Identidad.",
           "Comprobante de pago de la última cuenta."
@@ -97,4 +107,3 @@
       }
     ]
   }
-]
