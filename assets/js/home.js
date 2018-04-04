@@ -3,4 +3,11 @@ $(document).ready(function(){
     $('#solicitudes').hide();
     $('#main').show();
   })
+
+      $('#rencaLogo').click(function(){
+    $('#docs').hide();
+    $('#main').show();
+  })
+  
+
 })

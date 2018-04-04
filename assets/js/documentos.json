@@ -5,41 +5,39 @@ var data =
       {
         "nombre": "TAG",
         "id": "tag",
-        "documentos": [
+        "documentos": 
           {
-            "vehiculo nuevo": [
+            "nuevo": [
               "Padrón a nombre del titular.",
               "Factura a nombre del titular, con timbre RNVM (Registro Nacional de Vehículos Motorizados).",
               "Solicitud de primera inscripción a nombre del titular."
             ],
-            "vehiculo usado": [
+            "usado": [
               "Padrón a nombre del titular.",
               "Solicitud de transferencia a nombre del titular",
               "Contrato de compraventa a nombre del titular autorizado ante notario.",
               "Factura de adquisición del vehículo en subasta pública, certificada ante notario."
             ]
           }
-        ]
       },
       {
         "nombre": "Permiso de circulación",
         "id": "circulacion",
-        "documentos": [
+        "documentos":
           {
-            "vehiculo nuevo": [
+            "nuevo": [
               "Factura de compra (incluye la copia).",
               "Inscripción en el Servicio de Registro Civil.",
               "Certificado de homologación (si corresponde) y certificado de normas de homologación.",
               "Póliza de seguro automotor obligatorio con vigencia hasta el 31 de marzo del año siguiente."
             ],
-            "vehiculo usado": [
+            "usado": [
               "Permiso de circulación anterior.",
               "Certificado de homologación (si corresponde), o revisión técnica vigente.",
               "Póliza del seguro automotor obligatorio, que debe cubrir el período de vigencia del permiso de circulación.",
               "Tarjeta de dominio o padrón, según inscripción en el Servicio de Registro Civil."
             ]
           }
-        ]
       },
       {
         "nombre": "Patente",
