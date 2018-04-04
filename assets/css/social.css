@@ -24,3 +24,43 @@ body {
 h1 {
   margin: 15%;
 }
+
+.btn{
+  padding: 0.8em!important;
+  width: 9.5em;
+  height: 8.5em;
+}
+
+.capacidadesbtn {
+  background-color: #D75E24;
+  border-radius: 50%;
+}
+
+.becasbtn {
+  background-color: #E68E0C;
+  border-radius: 50%;
+}
+
+.subsidiobtn {
+  background-color: #769E33;
+  border-radius: 50%;
+}
+
+.socialbtn {
+  background-color: #009A88;
+  border-radius: 50%;
+}
+
+.moneybtn {
+  background-color: #5FB9D3;
+  border-radius: 50%;
+}
+
+.ayudabtn {
+  background-color: #0192D0;
+  border-radius: 50%;
+}
+
+.masc {
+  font-size: 10px;
+}

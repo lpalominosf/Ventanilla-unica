@@ -1,13 +1,16 @@
 $(document).ready(function(){
   $('#rencaLogo').click(function(){
     $('#solicitudes').hide();
+    $('#salud').hide();
+    $('#moreInfo').hide();
+    $('#estado').hide();
+    $('#docs').hide();
+    $('#social').hide();
+    $('#main').show();
+  });
     $('#main').show();
   })
-
-      $('#rencaLogo').click(function(){
+    $('#rencaLogo').click(function(){
     $('#docs').hide();
     $('#main').show();
   })
-  
-
-})

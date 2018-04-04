@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var myData = data.Tramites;
 console.log(myData)
 var dataa = data.Subsidios;
@@ -22,3 +23,6 @@ var data = {
     eachUser.push(data);
     
  $('#myModal').modal(options)
+=======
+
+>>>>>>> 74a87fc750e300c1918e8a83a9ff269f2386837d

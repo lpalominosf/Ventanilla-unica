@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ventanilla Unica</title>
+  <title>Municipalidad Renca</title>
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap core CSS -->
@@ -13,15 +13,20 @@
   <link href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled.min.css?ver=4.5.0" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Arsenal|Boogaloo" rel="stylesheet">
+  <link rel="stylesheet" href="assets/js/chosen/chosen.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/solicitudes.css">
   <link rel="stylesheet" href="assets/css/social.css">
   <link rel="stylesheet" href="assets/css/docs.css">
+  <link rel="stylesheet" href="assets/css/estado.css">
+  <link rel="stylesheet" href="assets/css/salud.css">
+  <link rel="stylesheet" href="assets/css/moreInfo.css">
+
 </head>
 <body>
   <header>
     <nav class="navbar navbar-light" id="nav">
-      <span class="navbar-brand"><img src="assets/img/logo-renca-blanco.png" id="rencaLogo" alt=""></span>
+      <span class="navbar-brand"><i class="fas fa-chevron-left" id="back"></i><img src="assets/img/logo-renca-blanco.png" id="rencaLogo" alt=""></span>
     </nav>
   </header>
   
@@ -30,35 +35,35 @@
   <section id="firstSection">
     <div class="row">
       <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6 buttonIcons mx-auto">
-        <button type="button" class="btn btn-primary" id="btnDocs"><i class="fas fa-file-alt"></i><br>
+        <button type="button" class="btn" id="btnDocs"><i class="fas fa-file-alt"></i><br>
           <span>Documentos Requeridos</span>
         </button>
         </div>
       <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6 buttonIcons">
-        <button type="button" class="btn btn-primary mx-auto" id="solicitudesBtn"><i class="fas fa-clipboard-list"></i><br>
+        <button type="button" class="btn mx-auto" id="solicitudesBtn"><i class="far fa-edit"></i><br>
           <span>Ingresa tu <br>Solicitud</span>
         </button>
       </div>
     </div>
     <div class="row">
       <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6 buttonIcons mx-auto">
-        <button type="button" class="btn btn-primary mx-auto"><i class="fas fa-heartbeat"></i> <br>
+        <button type="button" id="saludBtn" class="btn mx-auto"><i class="fas fa-heartbeat"></i> <br>
           <span>Información <br>Salud</span></button>
       </div>
       <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6 buttonIcons">
-        <button type="button" class="btn btn-primary mx-auto" id="socialBtn"><i class="far fa-handshake"></i><br>
+        <button type="button" class="btn mx-auto" id="socialBtn"><i class="far fa-handshake"></i><br>
           <span>Información <br>Social</span>
         </button>
     </div>
     </div>
     <div class="row">
       <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6 buttonIcons" >
-        <button type="button" class="btn btn-primary mx-auto"><i class="fas fa-paste"></i><br>
+        <button type="button" class="btn mx-auto" id="btn-estado"><i class="fas fa-paste"></i><br>
           <span>Consulta <br>Estado</span>
         </button>
       </div>
       <div class="col-6 col-md-6 col-sm-6 col-lg-6 col-xl-6 buttonIcons" >
-        <button type="button" class="btn btn-primary mx-auto"><i class="fas fa-plus"></i></button>
+        <button type="button" class="btn mx-auto" id="moreBtn"><i class="fas fa-plus"></i></button>
       </div>
     </div>
   </section>
@@ -67,6 +72,10 @@
 <div id="solicitudes"></div>
 <div id="social"></div>
 <div id="docs"></div>
+<div id="estado"></div>
+<div id="moreInfo"></div>
+<div id="salud"></div>
+
 <footer>
 <!--Third column-->
 <!--Footer-->
@@ -87,7 +96,7 @@
             </div>
             <!--/.Third column-->
 
-            <hr class="clearfix w-100 d-md-none" style="background-color: #000; border: 1px dotted #000;">
+            <hr class="clearfix w-100 d-md-none" style="background-color: #000; border-color: 1px groove #000;">
 
             <!--Fourth column-->
             <div class="col-md-2 col-lg-2 text-center">
@@ -136,9 +145,13 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+  src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+  crossorigin="anonymous"></script>
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
   <!-- Bootstrap core JavaScript -->
@@ -147,14 +160,17 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
   <!--Font Awesome-->
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+<script src="assets/js/chosen/chosen.jquery.min.js"></script>
+<script src="assets/js/chosen/chosen.proto.js"></script>
   <script src="assets/js/documentos.json"></script>
   <script src="assets/js/solicitudes.js"></script>
-
   <script src="assets/js/social.js"></script>
-
+  <script src="assets/js/salud.js"></script>
+  <script src="assets/js/moreInfo.js"></script>
   <script src="assets/js/home.js"></script>
   <script src="assets/js/docs.js"></script>
-    <script src="assets/js/app.js"></script>
+  <script src="assets/js/estado.js"></script>
+  <script src="assets/js/app.js"></script> 
 
 </body>
 </html>

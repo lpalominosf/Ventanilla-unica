@@ -2,6 +2,9 @@ $(document).ready(function(){
   $('#solicitudesBtn').click(function(){
     $('#main').hide();
     $('#social').hide();
+    $('#salud').hide();
+    $('#estado').hide();
+    $('#moreInfo').hide();
     console.log('holi')
     $('#solicitudes').empty();
     $('#solicitudes').show();
@@ -24,7 +27,7 @@ $(document).ready(function(){
                 <!--Header-->
                 <div class="text-center">
                   <h4 class="white-text">
-                    <i class="fa fa-user white-text"></i> Complete Campos</h4>
+                    <i class="fa fa-user white-text"></i> Solicitud</h4>
                   <hr class="hr-light">
                 </div>
                 <!--Body-->
@@ -47,6 +50,11 @@ $(document).ready(function(){
                   <i class="fas fa-phone prefix white-text active"></i>
                   <input type="number" id="formPhone" class="white-text form-control">
                   <label for="formPhone">Fono contacto</label>
+                </div>
+                <div class="md-form">
+                  <i class="fas fa-map-marker prefix white-text active"></i>
+                  <input type="text" id="formAdress" class="white-text form-control">
+                  <label for="formAdress">Direccion</label>
                 </div>
                 <div class="text-center mt-4">
                   <button class="btn btn-indigo" id="enviarForm">Sign up</button>
