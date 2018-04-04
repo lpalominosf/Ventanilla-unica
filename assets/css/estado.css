@@ -1,0 +1,10 @@
+h6 {
+  margin-top: -100%;
+  font-weight: bold;
+}
+
+.btn-primary{
+  padding: 0.8em!important;
+  width: 10em;
+  height: 8.5em;
+}
