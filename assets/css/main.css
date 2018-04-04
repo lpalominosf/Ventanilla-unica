@@ -33,20 +33,11 @@ background: linear-gradient(135deg, rgba(215,94,36,1) 0%, rgba(230,142,12,1) 19%
   margin-left: -15%;
 }
 
-#buttonIcons button {
-  width: 70%;
+.buttonIcons button {
   margin-top: 20%;
   opacity: 1;
 }
 
-#buttonIcons h4 {
-  font-size: 20px;
-  text-align: center;
-  margin-left: -10%;
-  font-family: 'Arsenal', sans-serif;
-  color: #000;
-  font-weight: 600;
-}
 
 footer {
   margin-top: -2%;
@@ -57,3 +48,12 @@ footer {
   margin-left: -2%;
 }
 
+.btn-primary{
+  padding: 0.8em!important;
+  width: 9em;
+  height: 8.5em;
+}
+
+#firstSection{
+  margin-left: -35px;
+}
