@@ -1,4 +1,54 @@
-
 .modal-content {
   color:blue;
+}
+
+#pagos {
+  background-color: #D75E24;
+  border-radius: 50%;
+  margin-top: -30%;
+}
+
+#tag {
+  background-color: #E68E0C;
+  border-radius: 50%;
+  border: none;
+  padding: 0.8em!important;
+  width: 7.2em;
+  height: 7em;
+  color: #FFF;
+  margin-top: 10%;
+}
+
+#patente{
+  background-color: #769E33;
+  border-radius: 50%;
+  border: none;
+  padding: 0.8em!important;
+  width: 9em;
+  height: 8.5em;
+  color: #FFF;
+  margin-top: 10%;
+}
+
+#patente span {
+  font-size: 11px;
+}
+
+#close {
+  width: 30%;
+  height: 8vh;
+  background: #009A88;
+}
+
+.modal-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #009A88;
+}
+
+.modal-body {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
 }
