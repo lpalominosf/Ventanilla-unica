@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('#socialBtn').click(function(){
     $('#main').hide();
+    $('#moreInfo').hide();
     $('#solicitudes').hide();
     $('#social').show();
     $('#social').empty();

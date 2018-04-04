@@ -4,6 +4,7 @@ $(document).ready(function(){
     $('#social').hide();
     $('#salud').hide();
     $('#estado').hide();
+    $('#moreInfo').hide();
     console.log('holi')
     $('#solicitudes').empty();
     $('#solicitudes').show();

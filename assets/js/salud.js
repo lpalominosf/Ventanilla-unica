@@ -8,7 +8,7 @@ $(document).ready(function() {
         $('#main').hide();
         $('#solicitudes').hide();
         $('#social').hide();
-
+        $('#moreInfo').hide();
         $('#salud').show();
         $('#salud').empty();
         $('#salud').append(`
