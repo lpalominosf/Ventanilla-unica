@@ -24,3 +24,4 @@ var data = {
 
 
 $('.datepicker').pickadate();
+

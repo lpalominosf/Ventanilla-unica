@@ -144,7 +144,7 @@ console.log(el.nombre)
 
 })
   })
-  $('#myModal').modal(options)
+  $('#myModal').modal()
 
 });
 
