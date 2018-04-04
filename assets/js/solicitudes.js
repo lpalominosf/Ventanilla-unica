@@ -106,16 +106,24 @@ $(document).ready(function(){
         $('#enviarForm').click(function() {
 
                    var nombre = $("#formName").val();
-                   console.log(nombre)
         var rut = $("#formRut").val();
         var direccion = $(".formAdd").val();
         var correo = $("#formMail").val();
         var telefono = $("#formPhone");
-        var tramites = $('.item span').html;
+        var tramites = $('.item span').html();
 
             var database = firebase.database();
             var users = database.ref().child('users');
             var eachUser = users.child(rut);
+
+            var data = {
+  nombre: nombre,
+  rut: rut,
+  correo: correo,
+  direccion: direccion,
+  tramites : tramites
+}
+    eachUser.push(data);
 
   })
 
