@@ -26,7 +26,7 @@ $(document).ready(function(){
                 <!--Header-->
                 <div class="text-center">
                   <h4 class="white-text">
-                    <i class="fa fa-user white-text"></i> Complete Campos</h4>
+                    <i class="fa fa-user white-text"></i> Solicitud</h4>
                   <hr class="hr-light">
                 </div>
                 <!--Body-->
@@ -52,8 +52,8 @@ $(document).ready(function(){
                 </div>
                 <div class="md-form">
                   <i class="fas fa-map-marker prefix white-text active"></i>
-                  <input id="autocomplete" placeholder="Enter your address" type="text">
-                  <label for="autocomplete">Dirección</label>
+                  <input type="text" id="formAdress" class="white-text form-control">
+                  <label for="formAdress">Direccion</label>
                 </div>
                 <div class="text-center mt-4">
                   <button class="btn btn-indigo" id="enviarForm">Sign up</button>

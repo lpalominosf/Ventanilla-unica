@@ -53,3 +53,7 @@ body {
 margin-bottom: -10% !important;
 margin-top: 5%;
 }
+
+.moreHeight{
+  height: 160vh;
+}
