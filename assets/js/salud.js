@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
   $("#saludBtn").click(function() {
+
     $('#main').hide();
     $('#solicitudes').hide();
     $('#social').hide();
@@ -20,18 +21,10 @@ $(document).ready(function() {
 <p>Esta política define al modelo de atención integral, familiar y comunitario, basado en un enfoque de derechos, como la forma más efectiva de dar respuesta a las necesidades y expectativas en salud de la población.</p>
 
 <p>Centrado en la persona y su familia, basado en el trabajo en equipos multidisciplinarios a cargo de poblaciones pequeñas, reconoce el valor del vínculo y de sistemas de cuidados a través del tiempo, y entiende el proceso salud enfermedad como un continuo, lo que permite implementar acciones para la promoción de la salud, reforzando la educación en factores protectores y prevención de factores de riesgo, desde un enfoque poblacional, y de esta forma se anticipa al daño.</p>
-
-<p>Cuenta con una red de establecimientos de Atención Primaria de Salud (4 Centros de Salud Familiar –Cesfam-, 1 SAR, 2 SAPU, 6 Centros de rehabilitación musculoesqueléticas) y 2 COSAM, para brindar atención al 78.8% de la población inscrita validada por FONASA.</p>
-
-<p>Sus 4 Centros de Salud se encuentran certificados por el Servicio de Salud Metropolitano Occidente –SSMOC- como Centros de Salud Familiar.</p>
-    </div>
-</div>
-<!-- / Collapsible element -->
-        </div>
-      </div>
-      <div class="row">
+    
         <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#darkModalForm"><i class="far fa-calendar-alt"></i><span>Agendar hora</span></button>
+
           
         </div>
       </div>
