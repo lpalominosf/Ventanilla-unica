@@ -25,7 +25,7 @@
   margin-top: -5%;
 }
 
-.fa-file-alt, .fa-clipboard-list, .fa-heartbeat, .fa-handshake, .fa-paste, .fa-plus {
+.fa-file-alt, .fa-edit, .fa-heartbeat, .fa-handshake, .fa-paste, .fa-plus {
   font-size: 50px;
   text-align: center;
 }
@@ -37,7 +37,6 @@
 .buttonIcons button {
   margin-top: 20%;
 }
-
 
 footer {
   margin-top: -2%;
@@ -55,14 +54,44 @@ footer p, footer h5 {
   margin-top: -2.5%;
 }
 
-.btn-primary{
+.btn{
   padding: 0.8em!important;
   width: 9em;
   height: 8.5em;
 }
 
+#btnDocs {
+  background-color: #D75E24;
+  border-radius: 50%;
+}
+
+#solicitudesBtn {
+  background-color: #E68E0C;
+  border-radius: 50%;
+}
+
+#saludBtn {
+  background-color: #769E33;
+  border-radius: 50%;
+}
+
+#socialBtn {
+  background-color: #009A88;
+  border-radius: 50%;
+}
+
+#btn-estado {
+  background-color: #5FB9D3;
+  border-radius: 50%;
+}
+
+#moreBtn {
+  background-color: #0192D0;
+  border-radius: 50%;
+}
+
 #firstSection{
-  margin-left: -35px;
+  margin-left: px;
 }
 
 .fa-map-marker,
