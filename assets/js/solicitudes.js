@@ -1,7 +1,10 @@
 $(document).ready(function(){
   $('#solicitudesBtn').click(function(){
-    $('#main').empty();
-    $('#main').append(`
+    $('#main').hide();
+    console.log('holi')
+    $('#solicitudes').empty();
+    $('#solicitudes').show();
+    $('#solicitudes').append(`
 
 <!-- Main navigation -->
 <header>
@@ -40,7 +43,7 @@ $(document).ready(function(){
                   <label for="form4">Your password</label>
                 </div>
                 <div class="text-center mt-4">
-                  <button class="btn btn-indigo">Sign up</button>
+                  <button class="btn btn-indigo" id="enviarForm">Sign up</button>
                 </div>
               </div>
             </div>
@@ -59,6 +62,10 @@ $(document).ready(function(){
 <!-- Main navigation -->
         
             `)
+      $('#enviarForm').click(function(){
+    console.log('aqui estoy, soy un boton :)')
   })
+  })
+
   
 });
