@@ -1,14 +1,15 @@
 $(document).ready(function(){
   $('#moreBtn').click(function(){
-      $('#estado').hide();
-      $('#main').hide();
-      $('#social').hide();
-      $('#salud').hide();
-      $('#solicitudes').hide();
-      $('#docs').hide();
-      $('#moreInfo').show();
-      $('#moreInfo').empty();
-      $('#moreInfo').append(`
+    $('#estado').hide();
+    $('#main').hide();
+    $('#social').hide();
+    $('#salud').hide();
+    $('#solicitudes').hide();
+    $('#docs').hide();
+    $('#moreInfo').show();
+    $('#moreInfo').empty();
+    $('#moreInfo').append(`
+
   <section>
     <!-- Full Page Intro -->
     <div class="view" style="background-image: url('http://cdn.plataformaurbana.cl/wp-content/uploads/2014/12/cerro-renca-1000x668.png'); background-repeat: no-repeat; background-size: cover; background-position: center center; height=auto;" >
