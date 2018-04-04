@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('#solicitudesBtn').click(function(){
     $('#main').hide();
+    $('#social').hide();
     console.log('holi')
     $('#solicitudes').empty();
     $('#solicitudes').show();
