@@ -33,7 +33,7 @@ body {
   background-image: url(../img/Cerro-Renca.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200vh;
+  height: auto;
   color: #fff;
   font-weight: bold;
 
