@@ -21,3 +21,6 @@ var data = {
     eachUser.push(data);
     
  $('#myModal').modal(options)
+
+
+$('.datepicker').pickadate();

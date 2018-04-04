@@ -2,6 +2,7 @@ $(document).ready(function(){
   $('#solicitudesBtn').click(function(){
     $('#main').hide();
     $('#social').hide();
+    $('#salud').hide();
     console.log('holi')
     $('#solicitudes').empty();
     $('#solicitudes').show();
