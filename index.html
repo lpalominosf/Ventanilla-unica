@@ -21,8 +21,21 @@
   <link rel="stylesheet" href="assets/css/estado.css">
   <link rel="stylesheet" href="assets/css/salud.css">
   <link rel="stylesheet" href="assets/css/moreInfo.css">
-
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBE4kPoovyIRSQdFeqcNpEVBVa0-nxmej4",
+    authDomain: "proyecto-renca.firebaseapp.com",
+    databaseURL: "https://proyecto-renca.firebaseio.com",
+    projectId: "proyecto-renca",
+    storageBucket: "proyecto-renca.appspot.com",
+    messagingSenderId: "593817216519"
+  };
+  firebase.initializeApp(config);
+</script>
 </head>
+
 <body>
   <header>
     <nav class="navbar navbar-light" id="nav">

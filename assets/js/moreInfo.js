@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('#moreBtn').click(function(){
     $('#estado').hide();
+
     $('#main').hide();
     $('#social').hide();
     $('#salud').hide();
@@ -9,6 +10,7 @@ $(document).ready(function(){
     $('#moreInfo').show();
     $('#moreInfo').empty();
     $('#moreInfo').append(`
+
 
   <section>
     <!-- Full Page Intro -->
