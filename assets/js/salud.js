@@ -92,7 +92,7 @@ $(document).ready(function() {
 </div>`)
 
     $('#infoBtn').click(function(){
-    $('#saludContainer').css('height', "220vh");
+    $('#saludContainer').css('height', "200vh");
     })
 
     })

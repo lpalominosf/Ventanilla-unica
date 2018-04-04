@@ -13,7 +13,7 @@ $(document).ready(function(){
 <!-- Main navigation -->
 <header>
   <!-- Full Page Intro -->
-  <div class="view" style="background-image: url('http://cdn.plataformaurbana.cl/wp-content/uploads/2014/12/cerro-renca-1000x668.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+  <div class="view" id="solicitudesContainer" style="background-image: url('http://cdn.plataformaurbana.cl/wp-content/uploads/2014/12/cerro-renca-1000x668.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
     <!-- Mask & flexbox options-->
     <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
       <!-- Content -->
@@ -41,7 +41,7 @@ $(document).ready(function(){
                 <div class="md-form">
                   <i class="fas fa-id-card prefix white-text active"></i>
                   <input type="number" id="formRut" class="white-text form-control">
-                  <label for="formRut" class="active"> Rut</label>
+                  <label for="formRut" class="active"> Rut (sin dígito verificador)</label>
                 </div>
                 <div class="md-form">
                   <i class="fa fa-envelope prefix white-text active"></i>
@@ -55,14 +55,12 @@ $(document).ready(function(){
                 </div>
                 <div class="md-form">
                   <i class="fas fa-map-marker prefix white-text active"></i>
-
-                  <input id="autocomplete" class="formAdd" placeholder="Enter your address" type="text">
-                  <label for="autocomplete">Dirección</label>
+                  <input type="text" id="formAdd" class="white-text form-control">
+                  <label for="formAdd">Dirección</label>
                 </div>
-
                 <div class="md-form">
 <div class="dropdown">
-        <div class="selected_list">
+        <div class="selected_list" id="selectedElements">
         </div>
         <input type="text" data-value="" value="" placeholder="Select" readonly />
         <div class="options_list">
@@ -82,7 +80,7 @@ $(document).ready(function(){
 
 
                 <div class="text-center mt-4">
-                  <button class="btn btn-indigo btn-formularios" id="enviarForm">Sign up</button>
+                  <button class="btn btn-indigo btn-formularios" id="enviarForm">Enviar</button>
                 </div>
               </div>
             </div>
@@ -105,12 +103,21 @@ $(document).ready(function(){
 
         $('#enviarForm').click(function() {
 
-                   var nombre = $("#formName").val();
+        var nombre = $("#formName").val();
         var rut = $("#formRut").val();
-        var direccion = $(".formAdd").val();
+        var direccion = $("#formAdd").val();
         var correo = $("#formMail").val();
-        var telefono = $("#formPhone");
+        var telefono = $("#formPhone").val();
         var tramites = $('.item span').html();
+
+        $("#formName").val("");
+        $("#formRut").val("");
+        $("#formAdd").val("");
+        $("#formMail").val("");
+        $("#formPhone").val("");
+        $("#selectedElements").empty();
+
+
 
             var database = firebase.database();
             var users = database.ref().child('users');

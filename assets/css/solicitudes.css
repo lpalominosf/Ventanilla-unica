@@ -6,6 +6,9 @@ body,
 .view {
   height: 100vh;
 }
+#solicitudesContainer{
+  height: 120vh;
+}
 
 @media (max-width: 740px) {
 }
