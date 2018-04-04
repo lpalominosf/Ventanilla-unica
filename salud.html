@@ -1,0 +1,85 @@
+  <section id="salud">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6  text-center">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-info"></i><p href="">Información</p></button>
+          <!-- Collapsible element -->
+<div class="collapse" id="collapseExample">
+    <div class="mt-3 card card-body">
+
+        <p>Cuenta con una red de establecimientos de Atención Primaria de Salud (4 Centros de Salud Familiar –Cesfam-, 1 SAR, 2 SAPU, 6 Centros de rehabilitación musculoesqueléticas) y 2 COSAM, para brindar atención al 78.8% de la población inscrita validada por FONASA.</p>
+
+        <p>Sus 4 Centros de Salud se encuentran certificados por el Servicio de Salud Metropolitano Occidente –SSMOC- como Centros de Salud Familiar.</p>
+    </div>
+</div>
+<!-- / Collapsible element -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#darkModalForm"><i class="far fa-calendar-alt"></i><p href="">Agendar hora</p></button>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="darkModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog form-dark" role="document">
+        <!--Content-->
+        <div class="modal-content card card-image" style="background-image: url('assets/img/Cerro-Renca.jpg');">
+            <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+                <!--Header-->
+                <div class="modal-header text-center pb-4">
+                    <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>Agenda tu hora</strong></h3>
+                    <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <!--Body-->
+                   
+                   <div class="md-form">
+    <input placeholder="fecha seleccionada" type="text" id="date-picker-example" class="form-control datepicker">
+    <label for="date-picker-example">Selecciona la fecha</label>
+</div>
+ <div class="md-form">
+        <i class="fa fa-user prefix grey-text"></i>
+        <input type="text" id="materialFormContactNameEx" class="form-control">
+        <label for="materialFormContactNameEx">Nombre</label>
+    </div>
+
+    <!-- Material input email -->
+    <div class="md-form">
+        <i class="fas fa-id-card-alt prefix grey-text"></i>
+        <input type="email" id="materialFormContactEmailEx" class="form-control">
+        <label for="materialFormContactEmailEx">RUT</label>
+    </div>
+     <div class="md-form">
+        <i class="fas fa-phone prefix grey-text"></i>
+        <input type="text" id="materialFormContactNameEx" class="form-control">
+        <label for="materialFormContactNameEx">Teléfono</label>
+    </div>
+
+    <!-- Material input email -->
+    <div class="md-form">
+        <i class="fas fa-map-marker prefix grey-text"></i>
+        <input type="email" id="materialFormContactEmailEx" class="form-control">
+        <label for="materialFormContactEmailEx">Dirección</label>
+    </div>
+                        <!--Grid column-->
+    <div class="text-center mt-4">
+        <button class="btn btn-outline-secondary" type="submit">Enviar<i class="far fa-paper-plane ml-2"></i></button>
+    </div>
+                    </div>
+                    <!--Grid row-->
+
+                </div>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
