@@ -8,4 +8,9 @@ $(document).ready(function(){
     $('#social').hide();
     $('#main').show();
   });
-})
+    $('#main').show();
+  })
+    $('#rencaLogo').click(function(){
+    $('#docs').hide();
+    $('#main').show();
+  })

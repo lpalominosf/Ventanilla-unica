@@ -16,7 +16,7 @@ $(document).ready(function(){
     <div class="row">
       <div class="col xs-12 s-12 md-12 lg-12 text-center">
       <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-tramite" id="pagos" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-tramite" id="pagos" data-toggle="modal" data-target="#exampleModal">
     Solicitud de devolución de pagos
 </button>
 <!-- Modal -->
@@ -25,14 +25,11 @@ $(document).ready(function(){
           <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel"></h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
             </div>
             <div class="modal-body">
             </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <div class="modal-footer text-justify">
+                <button type="button" class="btn" id="close" data-dismiss="modal">Close</button>
 
               </div>
             </div>
@@ -41,7 +38,7 @@ $(document).ready(function(){
         <div class="row">
         <div class="col xs-12 s-12 md-12 lg-12 text-center">
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-tramite" id="tag" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btnbtn-tramite" id="tag" data-toggle="modal" data-target="#exampleModal">
     TAG
 </button>
 <!-- Modal -->
@@ -50,15 +47,12 @@ $(document).ready(function(){
           <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">documentos patentes</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
             </div>
-            <div class="modal-body" id="modalBody">
+            <div class="modal-body text-justify" id="modalBody">
                 ...
             </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn" id="close" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -68,8 +62,8 @@ $(document).ready(function(){
         <div class="row text-center">
         <div class="col xs-12 s-12 md-12 lg-12 text-center">
         <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-tramite" id="patente" data-toggle="modal" data-target="#exampleModal">
-    documentacion patente
+<button type="button" class="btn btn-tramite" id="patente" data-toggle="modal" data-target="#exampleModal">
+    <span>documentacion patente</span>
 </button>
 <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -77,15 +71,12 @@ $(document).ready(function(){
           <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">documentos patentes</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body text-justify">
                 ...
             </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn" id="close" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
