@@ -1,13 +1,13 @@
-$(document).ready(function(){
-  $('#solicitudesBtn').click(function(){
-    $('#main').hide();
-    $('#social').hide();
-    $('#salud').hide();
-    $('#estado').hide();
-    console.log('holi')
-    $('#solicitudes').empty();
-    $('#solicitudes').show();
-    $('#solicitudes').append(`
+
+$(document).ready(function() {
+
+    $('#solicitudesBtn').click(function() {
+        $('#main').hide();
+        $('#social').hide();
+        $('#salud').hide();
+        $('#solicitudes').empty();
+        $('#solicitudes').show();
+        $('#solicitudes').append(`
 
 <!-- Main navigation -->
 <header>
@@ -30,6 +30,8 @@ $(document).ready(function(){
                   <hr class="hr-light">
                 </div>
                 <!--Body-->
+<select data-placeholder="Choose a country..." multiple class="chosen-select">
+
                 <div class="md-form">
                   <i class="fa fa-user prefix white-text active"></i>
                   <input type="text" id="formName" class="white-text form-control">
@@ -75,11 +77,28 @@ $(document).ready(function(){
 <!-- Main navigation -->
         
             `)
-      $('#enviarForm').click(function(){
-    console.log('aqui estoy, soy un boton :)')
-  })
+        var nombre = $("#nombre").val();
+        var rut = $("#rut").val();
+        var direccion = $("#direccion").val();
+        var correo = $("#correo").val();
+        var tramites = [$("tramites"), $("tramites2")]
+        $('#enviarForm').click(function() {
 
-  })
+           
+            var database = firebase.database();
+            var users = database.ref().child('users');
+            var eachUser = users.child(rut);
 
-  
+            var data = {
+                nombre: nombre,
+                rut: rut,
+                correo: correo,
+                direccion: direccion,
+                tramites: tramites
+            }
+            eachUser.push(data);
+        })
+
+    })
+$(".chosen-select").chosen()
 });

@@ -1,14 +1,17 @@
-
 $(document).ready(function() {
-  $("#saludBtn").click(function() {
 
-    $('#main').hide();
-    $('#solicitudes').hide();
-    $('#social').hide();
 
-    $('#salud').show();
-    $('#salud').empty();
-    $('#salud').append(`  <section class="rgba-gradient" id="salud">
+
+
+    $("#saludBtn").click(function() {
+
+        $('#main').hide();
+        $('#solicitudes').hide();
+        $('#social').hide();
+
+        $('#salud').show();
+        $('#salud').empty();
+        $('#salud').append(`  <section class="rgba-gradient" id="salud">
     <div class="container">
       <div class="row">
         <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6  text-center">
@@ -48,11 +51,8 @@ $(document).ready(function() {
                 <!--Body-->
                 <div class="modal-body">
                     <!--Body-->
-                   
-                   <div class="md-form">
-    <input placeholder="fecha seleccionada" type="text" id="date-picker-example" class="form-control datepicker">
-    <label for="date-picker-example">Selecciona la fecha</label>
-</div>
+
+
  <div class="md-form">
         <i class="fa fa-user prefix grey-text"></i>
         <input type="text" id="materialFormContactNameEx" class="form-control">
@@ -77,6 +77,12 @@ $(document).ready(function() {
         <input type="email" id="materialFormContactEmailEx" class="form-control">
         <label for="materialFormContactEmailEx">Dirección</label>
     </div>
+                                          <label id="selecFecha" class="align-left">Selecciona fecha</label>
+
+                   <div class="md-form">
+
+<input id="calendar" type="date">
+</div>
                         <!--Grid column-->
     <div class="text-center mt-4">
         <button class="btn btn-outline-secondary" type="submit">Enviar<i class="far fa-paper-plane ml-2"></i></button>
@@ -90,5 +96,8 @@ $(document).ready(function() {
         <!--/.Content-->
     </div>
 </div>`)
-})
+    })
+
+
+
 })
