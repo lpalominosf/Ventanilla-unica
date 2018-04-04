@@ -10,7 +10,7 @@
 
 /*SECTION ICONS BUTTONS*/
 
-#file1, #file2, #file3 {
+#file1 {
   margin-left: 5%;
 }
 
@@ -31,18 +31,6 @@
   margin-top: 20%;
 }
 
-<<<<<<< Updated upstream
-=======
-
-
-#buttonIcons h4 {
-  font-size: 20px;
-  text-align: center;
-  margin-left: -10%;
-  font-family: 'Arsenal', sans-serif;
-  color: #FFF;
-  font-weight: 600;
-}
 
 footer {
   margin-top: -2%;
@@ -63,10 +51,6 @@ footer p, footer h5 {
   padding: 0.8em!important;
   width: 9em;
   height: 8.5em;
-}
-
-#firstSection{
-  margin-left: -35px;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
