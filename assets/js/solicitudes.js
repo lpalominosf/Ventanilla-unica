@@ -82,7 +82,7 @@ $(document).ready(function(){
 
 
                 <div class="text-center mt-4">
-                  <button class="btn btn-indigo" id="enviarForm">Sign up</button>
+                  <button class="btn btn-indigo btn-formularios" id="enviarForm">Sign up</button>
                 </div>
               </div>
             </div>

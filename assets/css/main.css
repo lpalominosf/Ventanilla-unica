@@ -122,3 +122,8 @@ input[type=number] { -moz-appearance:textfield; }
   font-size: 30px;
   display: none;
 }
+
+.btn-formularios{
+  padding: 0em!important;
+  height: inherit!important;
+}

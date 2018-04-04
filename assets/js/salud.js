@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-
-
-
     $("#saludBtn").click(function() {
 
         $('#main').hide();
@@ -77,13 +74,13 @@ $(document).ready(function() {
                         <input type="email" id="materialFormContactEmailEx" class="form-control">
                         <label for="materialFormContactEmailEx">Dirección</label>
                     </div>
-                    <label id="selecFecha" class="align-left">Selecciona fecha</label>
+                    <label id="selecFecha" class="align-left white-text">Selecciona fecha</label>
                     <div class="md-form">
                 <input id="calendar" type="date">
                 </div>
                                         <!--Grid column-->
                     <div class="text-center mt-4">
-                        <button class="btn btn-outline-secondary" type="submit">Enviar<i class="far fa-paper-plane ml-2"></i></button>
+                        <button class="btn btn-outline-secondary btn-formularios" type="submit">Enviar<i class="far fa-paper-plane ml-2"></i></button>
                     </div>
                                     </div>
                                     <!--Grid row-->
@@ -95,7 +92,7 @@ $(document).ready(function() {
 </div>`)
 
     $('#infoBtn').click(function(){
-    $('#saludContainer').css('height', "160vh");
+    $('#saludContainer').css('height', "220vh");
     })
 
     })
