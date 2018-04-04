@@ -4,11 +4,4 @@ $(document).ready(function(){
     $('#salud').hide();
     $('#main').show();
   })
-
-      $('#rencaLogo').click(function(){
-    $('#docs').hide();
-    $('#main').show();
-  })
-  
-
 })

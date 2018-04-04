@@ -3,6 +3,7 @@ $(document).ready(function(){
     $('#main').hide();
     $('#social').hide();
     $('#salud').hide();
+    $('#estado').hide();
     console.log('holi')
     $('#solicitudes').empty();
     $('#solicitudes').show();

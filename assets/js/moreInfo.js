@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $('#moreBtn').click(function(){
+    $('#estado').hide();
     $('#main').empty();
     $('#main').append(`
   <section>
