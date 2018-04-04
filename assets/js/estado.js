@@ -16,16 +16,16 @@ $(document).ready(function(){
                 <h6>Seleccione Tipo de Solicitud</h6>
               </div>
               <div class="col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12">
-                <button type="button" class="btn btn-primary">PATENTE</button>
+                <button type="button" class="btn patentebtn">PATENTE</button>
               </div>
               <div class="col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12">
-                <button type="button" class="btn btn-primary">TAG</button>
+                <button type="button" class="btn tagbtn">TAG</button>
               </div>
               <div class="col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12">
-                <button type="button" class="btn btn-primary">SUBSIDIOS</button>
+                <button type="button" class="btn subsidiosbtn">SUBSIDIOS</button>
               </div>
               <div class="col-12 col-md-12 col-sm-12 col-lg-12 col-xl-12">
-                <button type="button" class="btn btn-primary">ESTERILIZACION DE MASCOTAS</button>
+                <button type="button" class="btn esterilizabtn"><span class="masc">ESTERILIZACION DE MASCOTAS</span></button>
               </div>
             </div>
           </div>

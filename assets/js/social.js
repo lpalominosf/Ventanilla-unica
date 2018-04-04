@@ -16,36 +16,36 @@ $(document).ready(function(){
             </div>
             <div class="row">
               <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center">
-                <button type="button" class="btn btn-primary"><i class="fas fa-wheelchair"></i><br>
+                <button type="button" class="btn capacidadesbtn"><i class="fas fa-wheelchair"></i><br>
                   <span>Capacidades <br>distintas</span>
                 </button>          
               </div>
             <div class="col-6 col-xs-2 col-sm-2 col-md-6 col-lg-6 text-center">
-              <button type="button" class="btn btn-primary"><i class="fas fa-graduation-cap"></i><br>
+              <button type="button" class="btn becasbtn"><i class="fas fa-graduation-cap"></i><br>
                 <span>Acceso <br>Becas</span>
               </button>
             </div>
           </div>
           <div class="row">
             <div class="col-6 col-xs-2 col-sm-2 col-md-6 col-lg-6 text-center">
-              <button type="button" class="btn btn-primary"><i class="fas fa-home"></i><br>
+              <button type="button" class="btn subsidiobtn"><i class="fas fa-home"></i><br>
                 <span>Subsidio <br>Habitacional</span>
               </button>
             </div>
             <div class="col-6 col-xs-2 col-sm-2 col-md-6 col-lg-6 text-center">
-              <button type="button" class="btn btn-primary"><i class="fas fa-users"></i><br>
+              <button type="button" class="btn socialbtn"><i class="fas fa-users"></i><br>
                 <span>Estratif.<br>Social</span>
               </button>
             </div>
           </div>
           <div class="row">
             <div class="col-6 col-xs-2 col-sm-2 col-md-6 col-lg-6 text-center">
-              <button type="button" class="btn btn-primary"><i class="fas fa-hand-holding-heart"></i><br>
+              <button type="button" class="btn moneybtn"><i class="fas fa-hand-holding-heart"></i><br>
                 <span>Subsidios <br>Monetarios</span>
               </button>
             </div>
             <div class="col-6 col-xs-2 col-sm-2 col-md-6 col-lg-6 text-center">
-              <button type="button" class="btn btn-primary"><i class="fas fa-hands-helping"></i><br>
+              <button type="button" class="btn ayudabtn"><i class="fas fa-hands-helping"></i><br>
                 <span>Ayudas <br>Sociales</span>
               </button>
             </div>
