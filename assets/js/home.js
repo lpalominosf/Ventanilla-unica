@@ -3,6 +3,9 @@ $(document).ready(function(){
     $('#solicitudes').hide();
     $('#salud').hide();
     $('#moreInfo').hide();
+    $('#estado').hide();
+    $('#docs').hide();
+    $('#social').hide();
     $('#main').show();
-  })
+  });
 })

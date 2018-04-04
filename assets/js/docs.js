@@ -3,8 +3,7 @@ $(document).ready(function(){
     $('#main').hide();
     $('#social').hide();
     $('#salud').hide();
-        $('#solicitudes').hide();
-
+    $('#solicitudes').hide();
     $('#docs').show();
     $('#docs').empty();
     $('#docs').append(`

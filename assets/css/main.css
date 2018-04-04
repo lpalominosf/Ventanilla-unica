@@ -112,3 +112,13 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 input[type=number] { -moz-appearance:textfield; }
+
+#backBtn {
+  color: #fff;
+  margin-bottom: -2%;
+}
+
+.fa-chevron-left {
+  font-size: 30px;
+  display: none;
+}
