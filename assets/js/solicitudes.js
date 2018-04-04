@@ -1,13 +1,14 @@
-
-$(document).ready(function() {
-
-    $('#solicitudesBtn').click(function() {
-        $('#main').hide();
-        $('#social').hide();
-        $('#salud').hide();
-        $('#solicitudes').empty();
-        $('#solicitudes').show();
-        $('#solicitudes').append(`
+$(document).ready(function(){
+  $('#solicitudesBtn').click(function(){
+    $('#main').hide();
+    $('#social').hide();
+    $('#salud').hide();
+    $('#docs').hide();
+    $('#estado').hide();
+    console.log('holi')
+    $('#solicitudes').empty();
+    $('#solicitudes').show();
+    $('#solicitudes').append(`
 
 <!-- Main navigation -->
 <header>
