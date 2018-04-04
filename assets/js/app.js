@@ -1,6 +1,7 @@
 var myData = data.Tramites;
 console.log(myData)
-
+var dataa = data.Subsidios;
+console.log(dataa)
 
 var nombre = $("#nombre").val();
 var rut = $("#rut").val();
