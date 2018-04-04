@@ -7,12 +7,11 @@ $(document).ready(function() {
 
     $('#salud').show();
     $('#salud').empty();
-    $('#salud').append(`
-  <section class="rgba-gradient" id="salud">
+    $('#salud').append(`  <section class="rgba-gradient" id="salud">
     <div class="container">
       <div class="row">
         <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6  text-center">
-          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-info"></i><p href="">Información</p></button>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-info"></i><span>Información</span></button>
           <!-- Collapsible element -->
 <div class="collapse" id="collapseExample">
     <div class="mt-3 card card-body">
@@ -32,7 +31,7 @@ $(document).ready(function() {
       </div>
       <div class="row">
         <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#darkModalForm"><i class="far fa-calendar-alt"></i><p href="">Agenda tu hora</p></button>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#darkModalForm"><i class="far fa-calendar-alt"></i><span>Agendar hora</span></button>
           
         </div>
       </div>
@@ -44,11 +43,11 @@ $(document).ready(function() {
 <div class="modal fade" id="darkModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog form-dark" role="document">
         <!--Content-->
-        <div class="modal-content card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');">
+        <div class="modal-content card card-image" style="background-image: url('assets/img/Cerro-Renca.jpg');">
             <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
                 <!--Header-->
                 <div class="modal-header text-center pb-4">
-                    <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong> <a class="green-text font-weight-bold"><strong> UP</strong></a></h3>
+                    <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>Agenda tu hora</strong></h3>
                     <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -58,11 +57,37 @@ $(document).ready(function() {
                     <!--Body-->
                    
                    <div class="md-form">
-    <input placeholder="Selected date" type="text" id="date-picker-example" class="form-control datepicker">
-    <label for="date-picker-example">Try me...</label>
+    <input placeholder="fecha seleccionada" type="text" id="date-picker-example" class="form-control datepicker">
+    <label for="date-picker-example">Selecciona la fecha</label>
 </div>
-                        <!--Grid column-->
+ <div class="md-form">
+        <i class="fa fa-user prefix grey-text"></i>
+        <input type="text" id="materialFormContactNameEx" class="form-control">
+        <label for="materialFormContactNameEx">Nombre</label>
+    </div>
 
+    <!-- Material input email -->
+    <div class="md-form">
+        <i class="fas fa-id-card-alt prefix grey-text"></i>
+        <input type="email" id="materialFormContactEmailEx" class="form-control">
+        <label for="materialFormContactEmailEx">RUT</label>
+    </div>
+     <div class="md-form">
+        <i class="fas fa-phone prefix grey-text"></i>
+        <input type="text" id="materialFormContactNameEx" class="form-control">
+        <label for="materialFormContactNameEx">Teléfono</label>
+    </div>
+
+    <!-- Material input email -->
+    <div class="md-form">
+        <i class="fas fa-map-marker prefix grey-text"></i>
+        <input type="email" id="materialFormContactEmailEx" class="form-control">
+        <label for="materialFormContactEmailEx">Dirección</label>
+    </div>
+                        <!--Grid column-->
+    <div class="text-center mt-4">
+        <button class="btn btn-outline-secondary" type="submit">Enviar<i class="far fa-paper-plane ml-2"></i></button>
+    </div>
                     </div>
                     <!--Grid row-->
 
@@ -71,7 +96,6 @@ $(document).ready(function() {
         </div>
         <!--/.Content-->
     </div>
-</div>
-<!-- Modal -->`)
+</div>`)
 })
 })
