@@ -49,6 +49,11 @@ $(document).ready(function(){
                   <input type="number" id="formPhone" class="white-text form-control">
                   <label for="formPhone">Fono contacto</label>
                 </div>
+                <div class="md-form">
+                  <i class="fas fa-map-marker prefix white-text active"></i>
+                  <input type="number" id="formAdress" class="white-text form-control">
+                  <label for="formPhone">Dirección</label>
+                </div>
                 <div class="text-center mt-4">
                   <button class="btn btn-indigo" id="enviarForm">Sign up</button>
                 </div>
