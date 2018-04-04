@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('#solicitudesBtn').click(function(){
     $('#main').hide();
+    $('#social').hide();
     console.log('holi')
     $('#solicitudes').empty();
     $('#solicitudes').show();
@@ -22,25 +23,30 @@ $(document).ready(function(){
               <div class="card-body">
                 <!--Header-->
                 <div class="text-center">
-                  <h3 class="white-text">
-                    <i class="fa fa-user white-text"></i> Ingrese solicitud</h3>
+                  <h4 class="white-text">
+                    <i class="fa fa-user white-text"></i> Complete Campos</h4>
                   <hr class="hr-light">
                 </div>
                 <!--Body-->
                 <div class="md-form">
                   <i class="fa fa-user prefix white-text active"></i>
-                  <input type="text" id="form3" class="white-text form-control">
-                  <label for="form3" class="active">Your name</label>
+                  <input type="text" id="formName" class="white-text form-control">
+                  <label for="formName" class="active">Ingrese nombre</label>
+                </div>
+                <div class="md-form">
+                  <i class="fas fa-id-card prefix white-text active"></i>
+                  <input type="number" id="formRut" class="white-text form-control">
+                  <label for="formRut" class="active"> Rut</label>
                 </div>
                 <div class="md-form">
                   <i class="fa fa-envelope prefix white-text active"></i>
-                  <input type="email" id="form2" class="white-text form-control">
-                  <label for="form2" class="active">Your email</label>
+                  <input type="email" id="formMail" class="white-text form-control">
+                  <label for="formMail" class="active">Correo Electrónico</label>
                 </div>
                 <div class="md-form">
-                  <i class="fa fa-lock prefix white-text active"></i>
-                  <input type="password" id="form4" class="white-text form-control">
-                  <label for="form4">Your password</label>
+                  <i class="fas fa-phone prefix white-text active"></i>
+                  <input type="number" id="formPhone" class="white-text form-control">
+                  <label for="formPhone">Fono contacto</label>
                 </div>
                 <div class="text-center mt-4">
                   <button class="btn btn-indigo" id="enviarForm">Sign up</button>
