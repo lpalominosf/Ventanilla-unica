@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('#socialBtn').click(function(){
     $('#main').empty();
     $('#main').append(`
-      <section>
+  <section>
     <div class="container">
       <div class="row">
         <div class="col-12 col-xs-12 col-sm-12">
