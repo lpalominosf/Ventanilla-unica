@@ -2,7 +2,7 @@
 
 Aplicación realizada en Talent Fest Laboratoria, Ventanilla Única es una app que sirve para realizar tramites online, desarrollada para la Municipalidad de Renca
 
-![ventanilla unica renca](https://user-images.githubusercontent.com/32282235/39720628-691879f6-5213-11e8-86d9-8404b20870bb.png)
+![ventanilla unica renca](https://user-images.githubusercontent.com/32282235/39720989-71843dcc-5214-11e8-96ff-2f314ee0a794.png)
 
 ## Metodología de trabajo
 
